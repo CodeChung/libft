@@ -6,7 +6,7 @@
 /*   By: hchung <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/08/27 13:47:16 by hchung            #+#    #+#             */
-/*   Updated: 2018/09/05 23:43:51 by hchung           ###   ########.fr       */
+/*   Updated: 2018/09/06 00:12:46 by hchung           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -90,5 +90,5 @@ void				ft_lstdelone(t_list **alst, void (*del)(void *, size_t));
 void				ft_lstdel(t_list **alst, void (*del)(void *, size_t));
 void				ft_lstadd(t_list **alst, t_list *n);
 void				ft_lstiter(t_list *lst, void (*f)(t_list *elem));
-t_list				*ft_lstmap(t_list *lst, t_list *(*f)(t_list *elem));			
+t_list				*ft_lstmap(t_list *lst, t_list *(*f)(t_list *elem));
 #endif
