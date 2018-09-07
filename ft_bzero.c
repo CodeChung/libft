@@ -6,13 +6,13 @@
 /*   By: hchung <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/07/04 23:05:23 by hchung            #+#    #+#             */
-/*   Updated: 2018/09/06 20:24:31 by hchung           ###   ########.fr       */
+/*   Updated: 2018/09/06 20:34:36 by hchung           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-void	ft_bzero(void *s, size_t n)
+void	*ft_bzero(void *s, size_t n)
 {
 	ft_memset(s, 0, n);
 	return (s);
