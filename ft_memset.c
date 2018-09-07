@@ -6,7 +6,7 @@
 /*   By: hchung <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/07/04 22:34:30 by hchung            #+#    #+#             */
-/*   Updated: 2018/09/06 20:48:49 by hchung           ###   ########.fr       */
+/*   Updated: 2018/09/06 20:55:31 by hchung           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,7 +14,7 @@
 
 void	*ft_memset(void *b, int c, size_t len)
 {
-	int 			i;
+	int				i;
 	unsigned char	*memmy;
 
 	i = 0;
