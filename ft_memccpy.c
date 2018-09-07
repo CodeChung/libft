@@ -6,7 +6,7 @@
 /*   By: hchung <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/07/07 21:43:58 by hchung            #+#    #+#             */
-/*   Updated: 2018/09/06 20:29:11 by hchung           ###   ########.fr       */
+/*   Updated: 2018/09/06 20:41:33 by hchung           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,7 +23,7 @@ void	*ft_memcpy(void *dst, const void *src, size_t n)
 	i = 0;
 	while (i < n)
 	{
-		ptr1[i] = ptr2[i];
+		ptr1[i] = (unsigned char)ptr2[i];
 		i++;
 	}
 	dst = (void *)ptr1;
